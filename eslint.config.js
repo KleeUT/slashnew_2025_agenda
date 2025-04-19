@@ -17,17 +17,27 @@ export default ts.config(
 	prettier,
 	...svelte.configs.prettier,
 	{
+		rules: {
+			'sort-imports': [
+				'error',
+				{
+					ignoreCase: false,
+					ignoreDeclarationSort: false,
+					ignoreMemberSort: false,
+					memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+					allowSeparatedGroups: false
+				}
+			]
+		}
+	},
+	{
 		languageOptions: {
 			globals: { ...globals.browser, ...globals.node }
 		},
-		rules: { "no-undef": 'off' }
+		rules: { 'no-undef': 'off' }
 	},
 	{
-		files: [
-			'**/*.svelte',
-			'**/*.svelte.ts',
-			'**/*.svelte.js'
-		],
+		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
 		languageOptions: {
 			parserOptions: {
 				projectService: true,

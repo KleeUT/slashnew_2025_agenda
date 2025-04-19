@@ -1,0 +1,32 @@
+export { aaronPowell } from './speakers/aaron-powell';
+export { andrewGoodwin } from './speakers/andrew-goodwin';
+export { ashleaRendel } from './speakers/ashlea-rendel';
+export { brendanMarsh } from './speakers/brendan-marsh';
+export { carolynBreeze } from './speakers/carolyn-breeze';
+export { claireQuigley } from './speakers/claire-quigley';
+export { craigWilliams } from './speakers/craig-williams';
+export { islamGhanim } from './speakers/islam-ghanim';
+export { jacobMoran } from './speakers/jacob-moran';
+export { jamesMacDonald } from './speakers/james-macdonald';
+export { nellySattari } from './speakers/nelly-sattari';
+export { saraGray } from './speakers/sara-gray';
+export { timKelso } from './speakers/tim-kelso';
+export { philNash } from './speakers/phil-nash';
+export { stephenCraig } from './speakers/stephen-craig';
+export { krisHoward } from './speakers/kris-howard';
+export { mattShepherd } from './speakers/matt-shepherd';
+export { pirateCoffee } from './speakers/pirate-coffee';
+export { michelleDuke } from './speakers/michelle-duke';
+export { conferenceFeud } from './speakers/conference-feud';
+
+export { welcome } from './welcome';
+
+export { changeover } from './breaks/changeover';
+export { lunch } from './breaks/lunch';
+export { morningTea } from './breaks/morning-tea';
+export { afternoonTea } from './breaks/afternoon-tea';
+export { registration } from './breaks/registration';
+export { drinks } from './breaks/drinks';
+
+export type { Session } from './session';
+export type { Speaker } from './speaker';

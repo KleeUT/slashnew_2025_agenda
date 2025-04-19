@@ -1,0 +1,38 @@
+import type { Session } from '../session';
+
+export const jamesMacDonald: Session = {
+	slug: 'james-macdonald',
+	title: 'Placeholder Title',
+	abstract: `
+  # Place holder
+  `,
+	speakers: [
+		{
+			name: 'James MacDonald',
+			bio: `
+      # heading
+      * bullet 1
+      * bullet 2
+      `,
+			image: 'james-macdonald.jpg'
+		},
+		{
+			name: 'Andrew Cresp',
+			bio: `
+      # heading
+      * bullet 1
+      * bullet 2
+      `,
+			image: 'andrew-cresp.jpg'
+		},
+		{
+			name: 'Sam Davies',
+			bio: `
+      # heading
+      * bullet 1
+      * bullet 2
+      `,
+			image: 'sam-davies.jpg'
+		}
+	]
+};
