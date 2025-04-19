@@ -14,4 +14,19 @@
 	});
 </script>
 
-<p>{startTimeString} - {endTimeString}</p>
+<div class="session-time">
+	<h2>{startTimeString}<span class="new-line"> - </span>{endTimeString}</h2>
+</div>
+
+<style>
+	h2 {
+		text-align: right;
+	}
+	.session-time {
+		background-color: #333;
+		margin-right: -1rem;
+	}
+	span.new-line {
+		display: block;
+	}
+</style>

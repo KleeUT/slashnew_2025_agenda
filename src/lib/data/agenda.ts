@@ -1,6 +1,6 @@
+import * as sessions from './sessions';
 import { may28at, may29at } from '$lib/date-utils';
 import type { PlannedSession } from './sessions/session';
-import * as sessions from './sessions';
 
 export type AgendaSession = {
 	startTime: Date;

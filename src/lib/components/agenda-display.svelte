@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { AgendaDay } from '../data/agenda';
+	import AgendaSessionDisplay from './agenda-session-display.svelte';
 	import SessionTime from './sessionTime.svelte';
 	interface Props {
 		day: AgendaDay;
@@ -13,23 +14,21 @@
 </script>
 
 <h1>
-	{date}
+	SlashNEW agenda: {date}
 </h1>
-<div>
+<div class="agenda-day">
 	{#each day.Sessions as session}
 		<SessionTime startTime={session.startTime} endTime={session.endTime}></SessionTime>
 		{#each session.sessions as talk}
-			<div class="session">
-				<h2>{talk.session.title}</h2>
-				<p>{talk.session.speakers.map((s) => s.name).join(', ')}</p>
-				[{talk.track}, {talk.type}]
-			</div>
+			<AgendaSessionDisplay {talk} />
 		{/each}
 	{/each}
 </div>
 
 <style>
-	div.session {
-		outline: 1px solid black;
+	.agenda-day {
+		display: grid;
+		grid-template-columns: 100px repeat(3, 1fr);
+		gap: 1.5rem 0.75rem;
 	}
 </style>
