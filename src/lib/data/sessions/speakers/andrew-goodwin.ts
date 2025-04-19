@@ -14,7 +14,8 @@ export const andrewGoodwin: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'andrew-goodwin.jpg'
+			image: 'andrew-goodwin.jpg',
+			jobTitle: 'Research Collaborator at The Hospital For Sick Children'
 		}
 	]
 };

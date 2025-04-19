@@ -8,7 +8,8 @@ export const carolynBreeze: Session = {
 		{
 			name: 'Carolyn Breeze',
 			bio: 'Carolyn Breeze is a keynote speaker at the conference.',
-			image: 'https://example.com/carolyn-breeze.jpg'
+			image: 'https://example.com/carolyn-breeze.jpg',
+			jobTitle: 'CEO of Scale Partners'
 		}
 	]
 };

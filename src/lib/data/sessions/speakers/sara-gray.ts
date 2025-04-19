@@ -14,7 +14,8 @@ export const saraGray: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'sara-gray.jpg'
+			image: 'sara-gray.jpg',
+			jobTitle: 'Senior Product Security manager at Atlassian'
 		}
 	]
 };

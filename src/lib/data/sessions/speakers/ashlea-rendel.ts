@@ -14,7 +14,8 @@ export const ashleaRendel: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'ashlea-rendel.jpg'
+			image: 'ashlea-rendel.jpg',
+			jobTitle: 'Research Manager at Bupa'
 		}
 	]
 };

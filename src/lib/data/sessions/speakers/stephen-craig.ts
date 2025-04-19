@@ -14,7 +14,8 @@ export const stephenCraig: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'stephen-craig.jpg'
+			image: 'stephen-craig.jpg',
+			jobTitle: 'Director, National Energy Analysis CCenter (NEAC) at CSIRO'
 		}
 	]
 };

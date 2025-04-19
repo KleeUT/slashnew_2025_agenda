@@ -14,7 +14,8 @@ export const islamGhanim: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'islam-ghanim.jpg'
+			image: 'islam-ghanim.jpg',
+			jobTitle: 'Principal Technical Account Manager at AWS'
 		}
 	]
 };

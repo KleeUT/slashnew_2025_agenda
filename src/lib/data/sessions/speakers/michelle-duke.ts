@@ -14,7 +14,8 @@ export const michelleDuke: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'michelle-duke.jpg'
+			image: 'michelle-duke.jpg',
+			jobTitle: 'Developer Advocate at SSW'
 		}
 	]
 };

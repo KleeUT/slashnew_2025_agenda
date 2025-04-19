@@ -14,7 +14,8 @@ export const mattShepherd: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'matt-shepherd.jpg'
+			image: 'matt-shepherd.jpg',
+			jobTitle: 'Senior Engineering Manager at Octopus Deploy'
 		}
 	]
 };

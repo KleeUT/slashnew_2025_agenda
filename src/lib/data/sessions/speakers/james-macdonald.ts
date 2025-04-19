@@ -23,7 +23,8 @@ export const jamesMacDonald: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'andrew-cresp.jpg'
+			image: 'andrew-cresp.jpg',
+			jobTitle: 'CIO at NGM Group'
 		},
 		{
 			name: 'Sam Davies',

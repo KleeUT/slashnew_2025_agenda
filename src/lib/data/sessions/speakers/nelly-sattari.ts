@@ -14,7 +14,8 @@ export const nellySattari: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'nelly-sattari.jpg'
+			image: 'nelly-sattari.jpg',
+			jobTitle: 'Senior Engineering Manager at Atlassian'
 		}
 	]
 };

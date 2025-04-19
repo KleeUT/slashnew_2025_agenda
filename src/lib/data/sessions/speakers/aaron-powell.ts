@@ -14,7 +14,8 @@ export const aaronPowell: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'aaron-powell.jpg'
+			image: 'aaron-powell.jpg',
+			jobTitle: ' Cloud Advocate at Microsoft'
 		}
 	]
 };

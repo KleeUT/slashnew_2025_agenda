@@ -14,7 +14,8 @@ export const craigWilliams: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'craig-williams.jpg'
+			image: 'craig-williams.jpg',
+			jobTitle: 'CTO at Applied Virtual Simulation'
 		}
 	]
 };

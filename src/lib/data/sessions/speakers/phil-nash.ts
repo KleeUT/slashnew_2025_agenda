@@ -14,7 +14,8 @@ export const philNash: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'phil-nash.jpg'
+			image: 'phil-nash.jpg',
+			jobTitle: 'Developer Relations Engineer at DataStax'
 		}
 	]
 };

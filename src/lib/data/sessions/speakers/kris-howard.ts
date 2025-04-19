@@ -14,7 +14,8 @@ export const krisHoward: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'kris-howard.jpg'
+			image: 'kris-howard.jpg',
+			jobTitle: 'Retired'
 		}
 	]
 };

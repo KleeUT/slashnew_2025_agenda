@@ -14,7 +14,8 @@ export const claireQuigley: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'claire-quigley.jpg'
+			image: 'claire-quigley.jpg',
+			jobTitle: 'Consultant and Founder at Launchpad9'
 		}
 	]
 };

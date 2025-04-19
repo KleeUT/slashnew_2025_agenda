@@ -14,7 +14,8 @@ export const jacobMoran: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'jacob-moran.jpg'
+			image: 'jacob-moran.jpg',
+			jobTitle: 'Product Owner: Data Mesh & Data Ops at ANZ'
 		}
 	]
 };
