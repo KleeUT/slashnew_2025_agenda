@@ -14,6 +14,7 @@
 		font-family: 'Roboto', sans-serif;
 		font-optical-sizing: auto;
 		font-style: normal;
+		box-sizing: border-box;
 	}
 	:global(h1) {
 		margin-bottom: 2rem;

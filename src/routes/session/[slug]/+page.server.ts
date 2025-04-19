@@ -12,7 +12,6 @@ export const load: PageServerLoad = async ({ params }) => {
 		console.error(`Session with slug ${params.slug} not found`);
 		redirect(302, '/');
 	}
-	console.log('session', session);
 	return {
 		session
 	};

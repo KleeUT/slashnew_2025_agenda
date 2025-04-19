@@ -12,19 +12,30 @@
 	href={`/session/${talk.session.slug}`}
 	class="session track-{talk.track} type-{talk.type}"
 >
-	<h3 class="session-title">{talk.session.title}</h3>
-	{#if talk.session.speakers.length > 0}
-		<p>
-			{#each talk.session.speakers as speaker}
-				<span class="speaker">
-					{speaker.name}
-					{#if speaker.jobTitle}
-						- {speaker.jobTitle}
-					{/if}
-				</span>
-			{/each}
-		</p>
-	{/if}
+	<div class="room-name room-name-{talk.track} type-{talk.type}">
+		{#if talk.type === 'keynote'}
+			keynote
+		{:else if talk.type !== 'break'}
+			{talk.track}
+		{/if}
+	</div>
+	<div class="session-details">
+		<h3 class="session-title">{talk.session.title}</h3>
+		{#if talk.session.speakers.length > 0}
+			<p>
+				{#each talk.session.speakers as speaker}
+					<span class="speaker">
+						{speaker.name}
+						{#if speaker.jobTitle}
+							- {speaker.jobTitle}
+						{/if}
+					</span>
+				{/each}
+			</p>
+		{:else}
+			<div></div>
+		{/if}
+	</div>
 </a>
 
 <style>
@@ -35,11 +46,34 @@
 		box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		cursor: pointer;
-		padding: 1.5rem;
 		border-radius: 0.1rem;
+	}
+	.room-name {
+		height: 2rem;
+		padding: 0.2rem 0;
+		width: 100%;
+	}
+	.room-name-all.type-break {
+		background-color: rgb(100, 100, 100);
+		border: 0;
+	}
+	.room-name-all.type-keynote,
+	.room-name-teal {
+		background-color: teal;
+	}
+	.room-name-magenta {
+		background-color: magenta;
+	}
+	.room-name-blue {
+		background-color: blue;
+	}
+	.session-details {
+		width: 100%;
+		height: 100%;
+		padding: 1rem;
 	}
 	span.speaker {
 		display: block;
@@ -67,5 +101,10 @@
 	}
 	.type-break h3 {
 		margin: 0;
+	}
+	@media (max-width: 600px) {
+		.track-all {
+			grid-column: unset;
+		}
 	}
 </style>

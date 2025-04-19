@@ -18,7 +18,7 @@
 </h1>
 <nav>
 	<a href="/day1" data-sveltekit-reload class={date === '28 May' ? 'current-day' : ''}>May 28</a>
-	<a href="/day2" data-sveltekit-reload class={date === '29 May' ? 'current-day' : ''}>May 29</a>
+	<a href="/day2" class={date === '29 May' ? 'current-day' : ''}>May 29</a>
 </nav>
 <div class="agenda-day">
 	{#each day.Sessions as session}
@@ -52,5 +52,11 @@
 	}
 	a.current-day {
 		font-weight: bold;
+	}
+	@media (max-width: 600px) {
+		.agenda-day {
+			grid-template-columns: 1fr;
+			gap: 0;
+		}
 	}
 </style>

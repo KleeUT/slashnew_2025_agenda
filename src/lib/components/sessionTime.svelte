@@ -33,4 +33,17 @@
 	span.new-line {
 		display: block;
 	}
+	@media (max-width: 600px) {
+		span.new-line {
+			display: inline-block;
+		}
+		.session-time {
+			margin: 0;
+			margin-top: 2rem;
+		}
+		h2 {
+			text-align: center;
+			width: 100%;
+		}
+	}
 </style>
