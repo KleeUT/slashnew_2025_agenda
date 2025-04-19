@@ -15,7 +15,7 @@ export const brendanMarsh: Session = {
       * bullet 2
       `,
 			image: 'brendan-marsh.jpg',
-			jobTitle: 'Organisation and Product COach at Organa'
+			jobTitle: 'Organisation and Product Coach at Organa'
 		}
 	]
 };

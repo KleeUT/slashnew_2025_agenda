@@ -21,10 +21,14 @@
 <style>
 	h2 {
 		text-align: right;
+		margin: 1rem;
 	}
 	.session-time {
 		background-color: #333;
 		margin-right: -1rem;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
 	}
 	span.new-line {
 		display: block;

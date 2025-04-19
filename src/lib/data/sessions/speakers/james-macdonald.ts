@@ -14,7 +14,8 @@ export const jamesMacDonald: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'james-macdonald.jpg'
+			image: 'james-macdonald.jpg',
+			jobTitle: 'Managing Director at NTP'
 		},
 		{
 			name: 'Andrew Cresp',
@@ -33,7 +34,8 @@ export const jamesMacDonald: Session = {
       * bullet 1
       * bullet 2
       `,
-			image: 'sam-davies.jpg'
+			image: 'sam-davies.jpg',
+			jobTitle: 'Core Networks, Cloud and Infrastructure COE Lead'
 		}
 	]
 };

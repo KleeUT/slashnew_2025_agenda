@@ -2,6 +2,9 @@
 	const { children } = $props();
 </script>
 
+<div class="header">
+	<a class="home-link" href="https://slashnew.tech">SlashNEW</a>
+</div>
 {@render children()}
 
 <style>
@@ -10,18 +13,19 @@
 		margin: 0;
 		font-family: 'Roboto', sans-serif;
 		font-optical-sizing: auto;
-		font-weight: <weight>;
 		font-style: normal;
-		font-variation-settings: 'wdth' 100;
 	}
 	:global(h1) {
-		margin: 2rem;
+		margin-bottom: 2rem;
+		text-align: center;
 	}
 	:global(h2) {
-		margin: 1.5rem;
+		margin-bottom: 1.5rem;
+		text-align: center;
 	}
 	:global(h3) {
-		margin: 1rem;
+		margin-bottom: 1rem;
+		text-align: center;
 	}
 	:global(html) {
 		height: 100vh;
@@ -38,5 +42,18 @@
 		);
 		color: white;
 		overflow: auto;
+		padding: 2rem;
+	}
+	a.home-link {
+		color: white;
+		text-decoration: none;
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-align: center;
+		width: 100%;
+	}
+	div.header {
+		margin-bottom: 2rem;
+		text-align: center;
 	}
 </style>
