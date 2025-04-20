@@ -8,10 +8,12 @@
 		hour: '2-digit',
 		minute: '2-digit'
 	});
-	const endTimeString = endTime.toLocaleTimeString([], {
-		hour: '2-digit',
-		minute: '2-digit'
-	});
+	const endTimeString = endTime
+		? endTime.toLocaleTimeString([], {
+				hour: '2-digit',
+				minute: '2-digit'
+			})
+		: '';
 </script>
 
 <div class="session-time">

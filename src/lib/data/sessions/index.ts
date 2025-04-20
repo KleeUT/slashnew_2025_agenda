@@ -27,6 +27,7 @@ export { morningTea } from './breaks/morning-tea';
 export { afternoonTea } from './breaks/afternoon-tea';
 export { registration } from './breaks/registration';
 export { drinks } from './breaks/drinks';
-
+export { endOfDay1 } from './breaks/end-of-day-1';
+export { endOfDa2 } from './breaks/end-of-day-2';
 export type { Session } from './session';
 export type { Speaker } from './speaker';

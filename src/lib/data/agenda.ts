@@ -4,7 +4,7 @@ import type { PlannedSession } from './sessions/session';
 
 export type AgendaSession = {
 	startTime: Date;
-	endTime: Date;
+	endTime?: Date;
 	sessions: Array<PlannedSession>;
 };
 export type AgendaDay = {
@@ -118,12 +118,12 @@ export const agenda: Agenda = {
 					{
 						type: 'talk',
 						track: 'magenta',
-						session: sessions.jamesMacDonald
+						session: sessions.timKelso
 					},
 					{
 						type: 'talk',
 						track: 'blue',
-						session: sessions.timKelso
+						session: sessions.jamesMacDonald
 					}
 				]
 			},
@@ -242,6 +242,16 @@ export const agenda: Agenda = {
 						type: 'keynote',
 						track: 'all',
 						session: sessions.conferenceFeud
+					}
+				]
+			},
+			{
+				startTime: may28at(18, 45),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.endOfDay1
 					}
 				]
 			}

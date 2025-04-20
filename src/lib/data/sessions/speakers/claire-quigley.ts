@@ -6,6 +6,13 @@ export const claireQuigley: Session = {
 		'Building High-Value Relationships between Technology and the Business: Three Essential Strategies to Delivering Successful Projects',
 	abstract: `
 After having to turn away people from her session at the 2024 SlashNEW conference we've asked Claire to come back and give us an updated version. This session was highly rated last year and is one you don't want to miss.
+Imagine you just sat through a meeting between Tech and Business leaders and teams. You ask the Techies how it went, and they're all "Great, barely any questions!" Then you chat with the business side, and it's crickets. All they saw were slides with a bunch of boxes and arrows, and they have no clue how it applies to their daily grind. They are simply wondering how this is all costing so much, and are we perhaps just overcomplicating things?
+Fast forward a month or two, and projects stall, tensions flare, and nobody's happy. Tech feels like robots taking orders, and Business feels like Tech doesn't get it.
+Join Claire's session to learn how to break these patterns and build relationships where there is clarity, direction, and people who want to work together. Learn about three crucial strategies for success:
+* From Many Voices to One Language: learn how to build for successful projects from the start.
+* Connect the (right) Dots: How to take things from complexity to brutal simplicity in a way that everyone wins.
+* Whose Team are you on? It's probably not your first answer. Learn how to think about teams in a different way to get the results you want.
+This promises to be a reflective and active session where you will be asked to engage, contribute and debate.
   `,
 	speakers: [
 		{

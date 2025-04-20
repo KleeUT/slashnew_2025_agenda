@@ -1,6 +1,6 @@
 import type { Session } from '../session';
 
-export const endOfDay: Session = {
+export const endOfDa2: Session = {
 	slug: 'end-of-day',
 	title: 'End of day 2',
 	abstract:

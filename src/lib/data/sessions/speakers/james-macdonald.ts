@@ -32,7 +32,7 @@ export const jamesMacDonald: Session = {
 			jobTitle: 'Core Networks, Cloud and Infrastructure COE Lead'
 		},
 		{
-			name: 'victoria aspden',
+			name: 'Victoria Aspden',
 			bio: `
 
       `,
