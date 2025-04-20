@@ -6,11 +6,13 @@
 </script>
 
 <nav>
-	<a href="/" data-sveltekit-reload>Back To Agenda</a>
+	<a href="/" data-sveltekit-reload>⬅️ Back To Agenda</a>
 </nav>
 <div class="session-details">
 	<h1>{session.title}</h1>
-	<SvelteMarkdown source={session.abstract} />
+	<div class="markdown">
+		<SvelteMarkdown source={session.abstract} />
+	</div>
 	{#each session.speakers as speaker}
 		<div class="speaker">
 			<h2>{speaker.name}</h2>
@@ -32,7 +34,7 @@
 		color: white;
 		text-decoration: none;
 		font-size: 1.5rem;
-		text-align: center;
+		text-align: left;
 		width: 100%;
 		margin-right: 1rem;
 		margin-bottom: 1rem;

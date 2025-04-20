@@ -2,9 +2,10 @@ import type { Session } from '../session';
 
 export const claireQuigley: Session = {
 	slug: 'claire-quigley',
-	title: 'Placeholder Title',
+	title:
+		'Building High-Value Relationships between Technology and the Business: Three Essential Strategies to Delivering Successful Projects',
 	abstract: `
-# Place holder
+After having to turn away people from her session at the 2024 SlashNEW conference we've asked Claire to come back and give us an updated version. This session was highly rated last year and is one you don't want to miss.
   `,
 	speakers: [
 		{

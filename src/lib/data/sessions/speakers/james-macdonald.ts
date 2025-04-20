@@ -2,17 +2,15 @@ import type { Session } from '../session';
 
 export const jamesMacDonald: Session = {
 	slug: 'james-macdonald',
-	title: 'Placeholder Title',
+	title: 'Panel: How cool, interesting, and innovative tech can be driven from regional areas',
 	abstract: `
-  # Place holder
+
   `,
 	speakers: [
 		{
 			name: 'James MacDonald',
 			bio: `
-      # heading
-      * bullet 1
-      * bullet 2
+
       `,
 			image: 'james-macdonald.jpg',
 			jobTitle: 'Managing Director at NTP'
@@ -20,9 +18,7 @@ export const jamesMacDonald: Session = {
 		{
 			name: 'Andrew Cresp',
 			bio: `
-      # heading
-      * bullet 1
-      * bullet 2
+
       `,
 			image: 'andrew-cresp.jpg',
 			jobTitle: 'CIO at NGM Group'
@@ -30,12 +26,18 @@ export const jamesMacDonald: Session = {
 		{
 			name: 'Sam Davies',
 			bio: `
-      # heading
-      * bullet 1
-      * bullet 2
+
       `,
 			image: 'sam-davies.jpg',
 			jobTitle: 'Core Networks, Cloud and Infrastructure COE Lead'
+		},
+		{
+			name: 'victoria aspden',
+			bio: `
+
+      `,
+			image: 'victoria-aspden.jpg',
+			jobTitle: 'Executive General Manager - Digital and Transformation at Ampcontrol'
 		}
 	]
 };
