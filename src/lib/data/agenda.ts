@@ -259,6 +259,221 @@ export const agenda: Agenda = {
 	},
 	day2: {
 		date: may29at(0, 1),
-		Sessions: []
+		Sessions: [
+			{
+				startTime: may29at(8, 30),
+				endTime: may29at(9, 0),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.registration
+					}
+				]
+			},
+			{
+				startTime: may29at(9, 0),
+				endTime: may29at(9, 10),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.welcome
+					}
+				]
+			},
+			{
+				startTime: may29at(9, 10),
+				endTime: may29at(10, 10),
+				sessions: [
+					{
+						type: 'keynote',
+						track: 'all',
+						session: sessions.michelleSanford
+					}
+				]
+			},
+			{
+				startTime: may29at(10, 10),
+				endTime: may29at(10, 40),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.morningTea
+					}
+				]
+			},
+			{
+				startTime: may29at(10, 40),
+				endTime: may29at(11, 25),
+				sessions: [
+					{
+						type: 'talk',
+						track: 'teal',
+						session: sessions.tomHoward
+					},
+					{
+						type: 'talk',
+						track: 'magenta',
+						session: sessions.katMcCrab
+					},
+					{
+						type: 'talk',
+						track: 'blue',
+						session: sessions.chrisGilbert
+					}
+				]
+			},
+			{
+				startTime: may29at(11, 25),
+				endTime: may29at(11, 30),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.changeover
+					}
+				]
+			},
+			{
+				startTime: may29at(11, 30),
+				endTime: may29at(12, 15),
+				sessions: [
+					{
+						type: 'talk',
+						track: 'teal',
+						session: sessions.johnBrøndum
+					},
+					{
+						type: 'talk',
+						track: 'magenta',
+						session: sessions.leighGibson
+					},
+					{
+						type: 'talk',
+						track: 'blue',
+						session: sessions.cordeliaAndBen
+					}
+				]
+			},
+			{
+				startTime: may29at(12, 15),
+				endTime: may29at(13, 15),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.lunch
+					}
+				]
+			},
+			{
+				startTime: may29at(13, 15),
+				endTime: may29at(14, 0),
+				sessions: [
+					{
+						type: 'talk',
+						track: 'teal',
+						session: sessions.shwetaChenigaram
+					},
+					{
+						type: 'talk',
+						track: 'magenta',
+						session: sessions.adamCassar
+					},
+					{
+						type: 'talk',
+						track: 'blue',
+						session: sessions.leanoraHorne
+					}
+				]
+			},
+			{
+				startTime: may29at(14, 0),
+				endTime: may29at(14, 5),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.changeover
+					}
+				]
+			},
+			{
+				startTime: may29at(14, 5),
+				endTime: may29at(14, 50),
+				sessions: [
+					{
+						type: 'talk',
+						track: 'teal',
+						session: sessions.julianBurr
+					},
+					{
+						type: 'talk',
+						track: 'magenta',
+						session: sessions.jayRovacsek
+					},
+					{
+						type: 'talk',
+						track: 'blue',
+						session: sessions.pirateCoffee
+					}
+				]
+			},
+			{
+				startTime: may29at(14, 50),
+				endTime: may29at(15, 20),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.afternoonTea
+					}
+				]
+			},
+			{
+				startTime: may29at(15, 20),
+				endTime: may29at(16, 5),
+				sessions: [
+					{
+						type: 'talk',
+						track: 'teal',
+						session: sessions.shivaPedram
+					},
+					{
+						type: 'talk',
+						track: 'magenta',
+						session: sessions.sarahKirkby
+					},
+					{
+						type: 'talk',
+						track: 'blue',
+						session: sessions.navinKeswani
+					}
+				]
+			},
+			{
+				startTime: may29at(16, 5),
+				endTime: may29at(16, 25),
+				sessions: [
+					{
+						type: 'keynote',
+						track: 'all',
+						session: sessions.endOfDa2
+					}
+				]
+			},
+			{
+				startTime: may29at(16, 25),
+				sessions: [
+					{
+						type: 'keynote',
+						track: 'all',
+						session: sessions.endOfDa2
+					}
+				]
+			}
+		]
 	}
 };

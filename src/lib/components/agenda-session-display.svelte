@@ -57,7 +57,7 @@
 		width: 100%;
 	}
 	.room-name-all.type-break {
-		background-color: rgb(100, 100, 100);
+		background-color: rgb(80, 80, 80);
 		border: 0;
 	}
 	.room-name-all.type-keynote,
@@ -96,7 +96,7 @@
 		border-bottom: 5px solid blue;
 	}
 	.type-break {
-		background-color: rgb(100, 100, 100);
+		background-color: rgb(80, 80, 80);
 		border-bottom: 5px solid grey;
 	}
 	.type-break h3 {
