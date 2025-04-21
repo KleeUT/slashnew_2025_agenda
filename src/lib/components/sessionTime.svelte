@@ -4,15 +4,19 @@
 		endTime?: Date;
 	}
 	const { startTime, endTime }: SessionTimeProps = $props();
-	const startTimeString = startTime.toLocaleTimeString([], {
-		hour: '2-digit',
-		minute: '2-digit'
-	});
+	const startTimeString = startTime
+		.toLocaleTimeString(['en-AU'], {
+			hour: '2-digit',
+			minute: '2-digit'
+		})
+		.substring(0, 5);
 	const endTimeString = endTime
-		? endTime.toLocaleTimeString([], {
-				hour: '2-digit',
-				minute: '2-digit'
-			})
+		? endTime
+				.toLocaleTimeString(['en-AU'], {
+					hour: '2-digit',
+					minute: '2-digit'
+				})
+				.substring(0, 5)
 		: '';
 </script>
 
