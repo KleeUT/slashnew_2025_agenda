@@ -32,10 +32,14 @@ Companies that prioritize HCD gain a competitive edge by improving usability, sa
 		{
 			name: 'Leanora Horne',
 			bio: `
-placeholder
+Leanora is a leading advocate for Human-Centered Design in heavy industry, bringing Silicon Valley-style UX thinking into high-stakes industrial environments. With a background in corporate product innovation and lean methodology, she has helped Bradken successfully bring industrial solutions to market, driving usability, safety, and adoption through data-driven design strategies.
+
+She is passionate about bridging the gap between engineering and real-world users, cutting through corporate red tape with "wagile" execution, and ensuring that the best industrial products are built for the people who rely on them most.
+
+Want to transform your industry with HCD-driven innovation? Let’s talk. 🚀
 `,
 			image: 'leanora-horne.jpg',
-			jobTitle: 'placeholdere'
+			jobTitle: 'Corporate Innovator | Product Strategist | Industrial UX Specialist'
 		}
 	]
 };

@@ -2,7 +2,7 @@ import type { Session } from '../../session';
 
 export const johnBrøndum: Session = {
 	slug: 'john-brøndum',
-	title: 'placeholder',
+	title: 'The Architecture of (Solution) Architecture',
 	abstract: `
 The solution architecture design activity is critical for most (larger) IT initiatives and therefore needs careful planning. And by careful, I don't mean a plan with hundreds of tasks, but something more than the anti-pattern of "we'll see how we go for this sprint" or the dreaded "develop solution architecture" task.
 The presentation introduces a flexible and simple approach for developing any software solution, especially if you are following one of the many Agile-like methods out there.

@@ -17,7 +17,7 @@ She has led cyber teams in governance, risk and compliance and incident response
 Kat is passionate about reducing risk, business growth and resilience.
 `,
 			image: 'kat-mccrab.jpg',
-			jobTitle: 'placeholdere'
+			jobTitle: 'Managing Director at Flame Tree Cyber'
 		}
 	]
 };
