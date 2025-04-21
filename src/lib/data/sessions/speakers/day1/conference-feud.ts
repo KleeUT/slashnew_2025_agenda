@@ -1,4 +1,4 @@
-import type { Session } from '../session';
+import type { Session } from '../../session';
 
 export const conferenceFeud: Session = {
 	slug: 'conference-feud',

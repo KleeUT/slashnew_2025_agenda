@@ -1,4 +1,4 @@
-import type { Session } from '../session';
+import type { Session } from '../../session';
 
 export const islamGhanim: Session = {
 	slug: 'islam-ghanim',

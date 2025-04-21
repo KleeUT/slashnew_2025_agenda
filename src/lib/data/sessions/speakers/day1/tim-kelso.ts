@@ -1,4 +1,4 @@
-import type { Session } from '../session';
+import type { Session } from '../../session';
 
 export const timKelso: Session = {
 	slug: 'tim-kelso',

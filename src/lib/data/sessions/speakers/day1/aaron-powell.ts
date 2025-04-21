@@ -1,4 +1,4 @@
-import type { Session } from '../session';
+import type { Session } from '../../session';
 
 export const aaronPowell: Session = {
 	slug: 'aaron-powell',
@@ -17,7 +17,7 @@ Let's take a dive into the world of the developer inner loop to see how we can o
 Aaron is a Developer Advocate at Microsoft with nearly 20 years of experience in web and .NET development. Passionate about open source, he actively contributes to projects like the .NET Aspire Community Toolkit. In that time, Aaron has watched the evolution of web technologies—from the browser wars to modern JavaScript frameworks—while tinkering with creative ideas like implementing numbers in .NET, creating IoC in JavaScript, and coding tic-tac-toe using git commits. When he’s not at his keyboard, Aaron can be found on running Strava, chasing his next PR, or ‘improving’ his smart home, much to his wifes reluctance.
 `,
 			image: 'aaron-powell.jpg',
-			jobTitle: ' Cloud Advocate at Microsoft'
+			jobTitle: 'Cloud Advocate at Microsoft'
 		}
 	]
 };

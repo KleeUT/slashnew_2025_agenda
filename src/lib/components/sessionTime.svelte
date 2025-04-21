@@ -1,7 +1,7 @@
 <script lang="ts">
 	interface SessionTimeProps {
 		startTime: Date;
-		endTime: Date;
+		endTime?: Date;
 	}
 	const { startTime, endTime }: SessionTimeProps = $props();
 	const startTimeString = startTime.toLocaleTimeString([], {
