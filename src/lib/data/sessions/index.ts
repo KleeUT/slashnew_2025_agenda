@@ -49,5 +49,7 @@ export { registration } from './breaks/registration';
 export { drinks } from './breaks/drinks';
 export { endOfDay1 } from './breaks/end-of-day-1';
 export { endOfDa2 } from './breaks/end-of-day-2';
+export { closingRemarks } from './breaks/closing-remarks';
+
 export type { Session } from './session';
 export type { Speaker } from './speaker';

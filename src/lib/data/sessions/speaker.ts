@@ -1,6 +1,6 @@
 export type Speaker = {
 	name: string;
 	bio: string;
-	image: string;
+	image?: string;
 	jobTitle?: string;
 };

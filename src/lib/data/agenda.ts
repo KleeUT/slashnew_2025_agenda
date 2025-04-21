@@ -21,6 +21,28 @@ export const agenda: Agenda = {
 		date: may28at(0, 1),
 		Sessions: [
 			{
+				startTime: may28at(8, 0),
+				endTime: may28at(9, 0),
+				sessions: [
+					{
+						type: 'break',
+						track: 'all',
+						session: sessions.registration
+					}
+				]
+			},
+			{
+				startTime: may28at(9, 0),
+				endTime: may28at(9, 10),
+				sessions: [
+					{
+						type: 'keynote',
+						track: 'all',
+						session: sessions.welcome
+					}
+				]
+			},
+			{
 				startTime: may28at(9, 20),
 				endTime: may28at(10, 20),
 				sessions: [
@@ -276,7 +298,7 @@ export const agenda: Agenda = {
 				endTime: may29at(9, 10),
 				sessions: [
 					{
-						type: 'break',
+						type: 'keynote',
 						track: 'all',
 						session: sessions.welcome
 					}
@@ -460,7 +482,7 @@ export const agenda: Agenda = {
 					{
 						type: 'keynote',
 						track: 'all',
-						session: sessions.endOfDa2
+						session: sessions.closingRemarks
 					}
 				]
 			},
@@ -468,7 +490,7 @@ export const agenda: Agenda = {
 				startTime: may29at(16, 25),
 				sessions: [
 					{
-						type: 'keynote',
+						type: 'break',
 						track: 'all',
 						session: sessions.endOfDa2
 					}
