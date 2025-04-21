@@ -8,11 +8,10 @@ This talk introduces the concept of slow coffee, a way to create space and time 
   `,
 	speakers: [
 		{
-			name: 'Pirate Coffee',
+			name: 'Damian Hamilton',
 			bio: `
-      # heading
-      * bullet 1
-      * bullet 2
+A proud Maori man, Damian Hamilton has spent most of his career working in senior roles in global technology companies like HP, Dimension Data and VMware. With a strong belief in the power of culture and the ability for a good story to change lives, Damian gravitated towards alliances, sales and channel partner roles, driving dramatic growth in cloud services and channel revenue year on year for over two decades.
+Combining his career and passion for coffee, his newly founded Pirate Coffee business and roastery at Port Stephens blends tech, food manufacturing and workflow systems with his passion for storytelling and conversation. With a goal to positively impact mens wellbeing, Pirate Coffee helps create moments for men of all ages to deeply connect through conversations that matter – one micro-roasted coffee at a time.
       `,
 			image: 'pirate-coffee.jpg'
 		}
