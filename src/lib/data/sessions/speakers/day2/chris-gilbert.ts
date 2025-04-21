@@ -2,7 +2,7 @@ import type { Session } from '../../session';
 
 export const chrisGilbert: Session = {
 	slug: 'chris-gilbert',
-	title: 'placeholder',
+	title: 'What really is an MVP',
 	abstract: `
 In the last 20 years I've been involved in a lot of MVP's. There's a lot of opinions out there about how Minimal you should go, what Viable means, and how to get a Product at the end of it. I'll talk through what these words mean to me, how to approach your own MVP, and whether you should be doing one at all.
   `,
