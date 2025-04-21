@@ -5,5 +5,10 @@ export const closingRemarks: Session = {
 	title: 'Closing remarks',
 	abstract:
 		'Organisers will close out day 2 with some final thoughts and reflections from the conference.',
-	speakers: []
+	speakers: [
+		{
+			name: 'Conference Organisers',
+			bio: `The conference organisers will introduce the schedule, speakers, and what to expect from the conference.`
+		}
+	]
 };
