@@ -8,6 +8,7 @@ export type AgendaSession = {
 	sessions: Array<PlannedSession>;
 };
 export type AgendaDay = {
+	title: string;
 	date: Date;
 	Sessions: Array<AgendaSession>;
 };
@@ -18,6 +19,7 @@ export type Agenda = {
 
 export const agenda: Agenda = {
 	day1: {
+		title: 'Day 1',
 		date: may28at(0, 1),
 		Sessions: [
 			{
@@ -280,6 +282,7 @@ export const agenda: Agenda = {
 		]
 	},
 	day2: {
+		title: 'Day 2',
 		date: may29at(0, 1),
 		Sessions: [
 			{

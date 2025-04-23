@@ -14,11 +14,16 @@
 </script>
 
 <h1>
-	SlashNEW agenda: {date}
+	{day.title} <span class="title_divider">//</span>
+	{date}
 </h1>
 <nav>
-	<a href="/day1" data-sveltekit-reload class={date === '28 May' ? 'current-day' : ''}>May 28</a>
-	<a href="/day2" data-sveltekit-reload class={date === '29 May' ? 'current-day' : ''}>May 29</a>
+	<a href="/day1" data-sveltekit-reload class="day {date === '28 May' ? 'current-day' : ''}"
+		>May 28</a
+	>
+	<a href="/day2" data-sveltekit-reload class="day {date === '29 May' ? 'current-day' : ''}"
+		>May 29</a
+	>
 </nav>
 <div class="agenda-day">
 	{#each day.Sessions as session}
@@ -40,6 +45,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background-color: #333;
+		padding: 1rem;
 	}
 	nav a {
 		color: white;
@@ -50,13 +57,20 @@
 		margin-right: 1rem;
 		margin-bottom: 1rem;
 	}
+	a.day {
+		color: aqua;
+	}
 	a.current-day {
 		font-weight: bold;
+		color: white;
 	}
 	@media (max-width: 600px) {
 		.agenda-day {
 			grid-template-columns: 1fr;
 			gap: 0;
 		}
+	}
+	.title_divider {
+		color: aqua;
 	}
 </style>
