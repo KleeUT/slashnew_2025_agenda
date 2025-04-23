@@ -27,7 +27,7 @@ Claire's mission is simple yet powerful: challenge the status quo, prioritise pe
 When she's not sparking connection and creativity, Claire draws inspiration from life in the Upper Hunter NSW, surrounded by her lively family of humans, horses, and dogs.
 `,
 			image: 'claire-quigley.jpg',
-			jobTitle: 'Consultant and Founder at Launchpad9'
+			jobTitle: 'Founder Tech Team Whisperer'
 		}
 	]
 };
