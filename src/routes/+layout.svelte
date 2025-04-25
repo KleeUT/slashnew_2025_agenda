@@ -57,4 +57,9 @@
 		margin-bottom: 2rem;
 		text-align: center;
 	}
+	@media (max-width: 600px) {
+		:global(body) {
+			padding: 1rem;
+		}
+	}
 </style>

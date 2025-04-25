@@ -57,4 +57,13 @@
 	:global(.markdown a) {
 		color: white;
 	}
+	:global(.markdown p) {
+		margin-bottom: 0.5rem;
+	}
+	@media (max-width: 600px) {
+		.session-details {
+			width: 100%;
+			padding: 0;
+		}
+	}
 </style>
