@@ -2,11 +2,11 @@
 	import SvelteMarkdown from 'svelte-markdown';
 
 	const { data } = $props();
-	const { session } = data;
+	const { session, returnTo } = data;
 </script>
 
 <nav>
-	<a href="/" data-sveltekit-reload>⬅️ Back To Agenda</a>
+	<a href="/{returnTo}" data-sveltekit-reload>⬅️ Back To Agenda</a>
 </nav>
 <div class="session-details">
 	<h1>{session.title}</h1>

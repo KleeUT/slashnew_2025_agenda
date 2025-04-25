@@ -3,13 +3,14 @@
 
 	interface Props {
 		talk: PlannedSession;
+		day: string;
 	}
-	const { talk }: Props = $props();
+	const { talk, day }: Props = $props();
 </script>
 
 <a
 	data-sveltekit-reload
-	href={`/session/${talk.session.slug}`}
+	href={`/session/${talk.session.slug}?returnTo=${day.toLowerCase()}`}
 	class="session track-{talk.track} type-{talk.type}"
 >
 	<div class="room-name room-name-{talk.track} type-{talk.type}">

@@ -29,7 +29,7 @@
 	{#each day.Sessions as session}
 		<SessionTime startTime={session.startTime} endTime={session.endTime}></SessionTime>
 		{#each session.sessions as talk}
-			<AgendaSessionDisplay {talk} />
+			<AgendaSessionDisplay {talk} day={day.title} />
 		{/each}
 	{/each}
 </div>
