@@ -2,10 +2,15 @@ import type { Session } from '../../session';
 
 export const jayRovacsek: Session = {
 	slug: 'jay-rovacsek',
-	title: 'Supercharging System Builds Reproducibly (not just repeatably)',
-	abstract: `
-This talk intends to showcase the capability that exists within the nix ecosystem in enabling traditional infrastructure as code patterns such as Ansible, Docker and more to be merged into a single approach that also resolves outstanding issues with the aforementioned technology.
-During the talk, an intent to apply a live demonstration of building a system with nix would be included (with fallback offline copies), taking the audience though the steps of uplifting existing system while explaining the operational benefits (testing, REPL, automated diagramming), security benefits (RBAC, POLP, minimalism) and more
+	title: 'Rethinking the Building Blocks of Technology',
+	abstract: `Over 40 years have passed since Ken Thompson asked "To what extent should one trust a statement that a program is free of Trojan
+horses?", yet still a large segment of the technological landscape is unfortunately in a position of trusting trust
+
+What are reproducible builds? Why do they matter? Does my $TECHNOLOGY have a pathway towards providing consumers reproducible outputs?
+
+During the presentation, we will discuss these questions, unpack what current state of various technologies might be and provide guidance to the audience on how they may also contribute to a more resilient and trustworthy world
+
+Warning: side effects of reproducibility may include stronger supply chains, capability to build and produce provable provenance of an output and an over-eagerness to tell anyone who will listen about it
   `,
 	speakers: [
 		{
