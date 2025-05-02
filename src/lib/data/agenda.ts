@@ -24,7 +24,7 @@ export const agenda: Agenda = {
 		Sessions: [
 			{
 				startTime: may28at(8, 0),
-				endTime: may28at(9, 0),
+				endTime: may28at(8, 50),
 				sessions: [
 					{
 						type: 'break',
@@ -34,8 +34,8 @@ export const agenda: Agenda = {
 				]
 			},
 			{
-				startTime: may28at(9, 0),
-				endTime: may28at(9, 10),
+				startTime: may28at(8, 50),
+				endTime: may28at(9, 20),
 				sessions: [
 					{
 						type: 'keynote',
