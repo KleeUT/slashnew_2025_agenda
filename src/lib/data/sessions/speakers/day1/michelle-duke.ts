@@ -19,7 +19,7 @@ Mish is a multi-talented personality in the tech and gaming communities. Mish ha
 Mish is a successful entrepreneur and founder, having co-founded several companies – including an artificial intelligence company, and as a result, sits at the forefront of Melbourne’s science, tech, esports, and startup scenes. In her 'spare' time she’s a streamer, journalist, loves playing sports, and is always working on something exciting.
       `,
 			image: 'michelle-duke.jpg',
-			jobTitle: 'Developer Advocate at SSW'
+			jobTitle: 'Senior Developer Advocate | AI Founder'
 		}
 	]
 };
