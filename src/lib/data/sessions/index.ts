@@ -35,6 +35,7 @@ export { navinKeswani } from './speakers/day2/navin-keswani';
 export { sarahKirkby } from './speakers/day2/sarah-kirkby';
 export { chrisGilbert } from './speakers/day2/chris-gilbert';
 export { shivaPedram } from './speakers/day2/shiva-pedram';
+export { ulyssesMaclaren } from './speakers/day2/ulysses-maclaren';
 // both days
 export { pirateCoffee } from './speakers/pirate-coffee';
 

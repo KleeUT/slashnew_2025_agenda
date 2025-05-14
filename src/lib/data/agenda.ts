@@ -346,7 +346,7 @@ export const agenda: Agenda = {
 					{
 						type: 'talk',
 						track: 'blue',
-						session: sessions.chrisGilbert
+						session: sessions.ulyssesMaclaren
 					}
 				]
 			},
