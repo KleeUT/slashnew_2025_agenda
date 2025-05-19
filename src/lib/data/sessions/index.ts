@@ -20,7 +20,7 @@ export { michelleDuke } from './speakers/day1/michelle-duke';
 export { conferenceFeud } from './speakers/day1/conference-feud';
 
 //day 2
-export { michelleSanford } from './speakers/day2/michelle-sanford';
+export { michelleSandford } from './speakers/day2/michelle-sandford';
 export { cordeliaAndBen } from './speakers/day2/coredelia-and-ben';
 export { johnBrøndum } from './speakers/day2/john-brondum';
 export { katMcCrab } from './speakers/day2/kat-mccrab';

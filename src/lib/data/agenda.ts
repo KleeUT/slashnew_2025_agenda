@@ -314,7 +314,7 @@ export const agenda: Agenda = {
 					{
 						type: 'keynote',
 						track: 'all',
-						session: sessions.michelleSanford
+						session: sessions.michelleSandford
 					}
 				]
 			},
