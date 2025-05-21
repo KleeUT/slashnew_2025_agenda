@@ -17,7 +17,7 @@ I often achieve these goals using the You Build It You Run It operating model, w
 When I'm not working on any of the above, you'll find me enjoying the beaches in New South Wales with my dog, Doddie.
 			`,
 			image: 'bethan-timmins.jpg',
-			jobTitle: 'Capability and Organisational Development Consultant at Organa'
+			jobTitle: 'Leading Technology and Delivery as Chief Technology Officer at VND GLOBAL'
 		}
 	]
 };
