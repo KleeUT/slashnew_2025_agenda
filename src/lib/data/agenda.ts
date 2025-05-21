@@ -469,7 +469,7 @@ export const agenda: Agenda = {
 					{
 						type: 'talk',
 						track: 'magenta',
-						session: sessions.sarahKirkby
+						session: sessions.bethanTimmins
 					},
 					{
 						type: 'talk',
