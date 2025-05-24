@@ -10,11 +10,13 @@ This talk introduces the concept of slow coffee, a way to create space and time 
 		{
 			name: 'Damian Hamilton',
 			bio: `
-A proud Maori man, Damian Hamilton has spent most of his career working in senior roles in global technology companies like HP, Dimension Data and VMware. With a strong belief in the power of culture and the ability for a good story to change lives, Damian gravitated towards alliances, sales and channel partner roles, driving dramatic growth in cloud services and channel revenue year on year for over two decades.
-Combining his career and passion for coffee, his newly founded Pirate Coffee business and roastery at Port Stephens blends tech, food manufacturing and workflow systems with his passion for storytelling and conversation. With a goal to positively impact mens wellbeing, Pirate Coffee helps create moments for men of all ages to deeply connect through conversations that matter – one micro-roasted coffee at a time.
+Damian Hamilton spent over 20 years leading sales and partnerships for global tech giants like HP and Dimension Data, driving serious growth across cloud, software, and enterprise IT. But these days, he’s more likely to be found behind a roaster than a whiteboard.
+A proud Māori man, Damo is the co-founder of Pirate Coffee — a small batch roastery and social enterprise based in Port Stephens. What started as a love for specialty coffee has evolved into a platform for connection, conversation, and community wellbeing — with a strong focus on improving men’s mental health.
+Through Pirate Labs, Damo is laying the groundwork for future ventures in advanced manufacturing, supply chain analytics, and tech-enabled food systems. It’s the IP and innovation arm of Pirate — where ideas are tested, systems are built, and regional tech gets serious.
+At /NEW, he’ll be brewing slow coffee with long-time mate and NewyTechPeople founder James MacDonald — creating space for honest conversations, shared experience, and a fresh take on where technology meets humanity.
       `,
 			image: 'pirate-coffee.jpg',
-			jobTitle: 'Founder of Pirate Labs'
+			jobTitle: 'Founder – Pirate Coffee | Pirate Labs'
 		},
 		{
 			name: 'Tracy Hamilton',
