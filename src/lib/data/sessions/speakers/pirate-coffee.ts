@@ -17,13 +17,6 @@ At /NEW, he’ll be brewing slow coffee with long-time mate and NewyTechPeople f
       `,
 			image: 'pirate-coffee.jpg',
 			jobTitle: 'Founder – Pirate Coffee | Pirate Labs'
-		},
-		{
-			name: 'Tracy Hamilton',
-			bio: `
-      `,
-			image: 'pirate-coffee.jpg',
-			jobTitle: 'Head Roaster at Pirate Coffee'
 		}
 	]
 };
