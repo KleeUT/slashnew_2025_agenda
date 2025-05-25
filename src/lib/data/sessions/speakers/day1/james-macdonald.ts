@@ -25,7 +25,7 @@ Over the last 10 years has held various CIO and Senior leadership roles in at AN
 Having successfully executed multiple business transformations within culturally diverse organisations and regions, Nish is always looking to leverage his experiences to help organisations drive further growth and is committed to lifelong learning.
       `,
 			image: 'andrew-cresp.jpg',
-			jobTitle: 'CIO at NGM Group'
+			jobTitle: 'CTO at NGM Group'
 		},
 		{
 			name: 'Sam Davies',
